@@ -1,0 +1,56 @@
+# OreWeaver configuration
+# Message language: en, ru, ua
+
+activation-mode: SNEAK
+language: ru
+
+max-blocks: 64
+server-max-blocks: 256
+cooldown-ticks: 0
+use-durability: true
+hunger-per-block: 0.025
+minimum-food-level: 6
+
+block-aliases:
+  coal:
+    - COAL_ORE
+    - DEEPSLATE_COAL_ORE
+  iron:
+    - IRON_ORE
+    - DEEPSLATE_IRON_ORE
+  gold:
+    - GOLD_ORE
+    - DEEPSLATE_GOLD_ORE
+    - NETHER_GOLD_ORE
+  diamond:
+    - DIAMOND_ORE
+    - DEEPSLATE_DIAMOND_ORE
+  emerald:
+    - EMERALD_ORE
+    - DEEPSLATE_EMERALD_ORE
+  lapis:
+    - LAPIS_ORE
+    - DEEPSLATE_LAPIS_ORE
+  redstone:
+    - REDSTONE_ORE
+    - DEEPSLATE_REDSTONE_ORE
+  copper:
+    - COPPER_ORE
+    - DEEPSLATE_COPPER_ORE
+  quartz:
+    - NETHER_QUARTZ_ORE
+  debris:
+    - ANCIENT_DEBRIS
+
+tool-groups:
+  WOODEN_PICKAXE: [ coal, copper ]
+  STONE_PICKAXE: [ coal, iron, copper, gold, quartz ]
+  IRON_PICKAXE: [ coal, iron, gold, copper, lapis, redstone, emerald, quartz ]
+  GOLDEN_PICKAXE: [ coal, iron, gold, copper, quartz ]
+  DIAMOND_PICKAXE: [ coal, iron, gold, copper, diamond, lapis, redstone, emerald, quartz, debris ]
+  NETHERITE_PICKAXE: [ coal, iron, gold, copper, diamond, lapis, redstone, emerald, quartz, debris ]
+
+disabled-worlds: []
+enabled-worlds: []
+
+debug: false

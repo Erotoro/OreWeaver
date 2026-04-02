@@ -1,0 +1,13 @@
+messages:
+  prefix: "<gray>[<green>VM</green>]</gray> "
+  toggled-on: "<prefix><green>OreWeaver увімкнено."
+  toggled-off: "<prefix><red>OreWeaver вимкнено."
+  no-permission: "<prefix><red>Недостатньо прав."
+  player-only: "<prefix><red>Ця підкоманда доступна лише гравцям."
+  cooldown: "<prefix><yellow>Зачекайте <seconds>с."
+  too-hungry: "<prefix><yellow>Ви занадто голодні для OreWeaver."
+  reload-success: "<prefix><green>Конфіг перезавантажено."
+  info: "<prefix><gray>OreWeaver <green>v<version></green> | <yellow><platform></yellow>"
+  help-toggle: "<gray>/<label> toggle</gray> - увімкнути або вимкнути OreWeaver"
+  help-info: "<gray>/<label> info</gray> - інформація про плагін"
+  help-reload: "<gray>/<label> reload</gray> - перезавантажити конфіг"

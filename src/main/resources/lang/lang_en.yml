@@ -1,0 +1,13 @@
+messages:
+  prefix: "<gray>[<green>VM</green>]</gray> "
+  toggled-on: "<prefix><green>OreWeaver enabled."
+  toggled-off: "<prefix><red>OreWeaver disabled."
+  no-permission: "<prefix><red>No permission."
+  player-only: "<prefix><red>This subcommand can only be used by players."
+  cooldown: "<prefix><yellow>Please wait <seconds>s."
+  too-hungry: "<prefix><yellow>You are too hungry for OreWeaver."
+  reload-success: "<prefix><green>Config reloaded."
+  info: "<prefix><gray>OreWeaver <green>v<version></green> | <yellow><platform></yellow>"
+  help-toggle: "<gray>/<label> toggle</gray> - toggle OreWeaver"
+  help-info: "<gray>/<label> info</gray> - show plugin info"
+  help-reload: "<gray>/<label> reload</gray> - reload config"

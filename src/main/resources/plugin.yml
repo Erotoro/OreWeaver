@@ -1,0 +1,50 @@
+name: OreWeaver
+version: '${project.version}'
+main: dev.erotoro.oreweaver.OreWeaverPlugin
+api-version: '1.21'
+folia-supported: true
+
+authors: [ Erotoro ]
+description: OreWeaver for Folia, Paper, and Spigot
+website: https://github.com/Erotoro
+softdepend: [ Vault ]
+
+commands:
+  oreweaver:
+    description: OreWeaver commands
+    aliases: [ ow ]
+    usage: /oreweaver <toggle|reload|info>
+    permission: oreweaver.command
+
+permissions:
+  oreweaver.use:
+    description: Allows using OreWeaver
+    default: true
+
+  oreweaver.command:
+    description: Access to /oreweaver command
+    default: op
+
+  oreweaver.command.toggle:
+    description: Toggle OreWeaver for yourself
+    default: true
+
+  oreweaver.command.reload:
+    description: Reload config
+    default: op
+
+  oreweaver.command.info:
+    description: Show plugin info
+    default: true
+
+  oreweaver.bypass.maxblocks:
+    description: Bypass max-blocks limit (uses server-max-blocks from config)
+    default: op
+
+  oreweaver.bypass.hunger:
+    description: Mine without hunger cost
+    default: false
+
+  oreweaver.bypass.cooldown:
+    description: No cooldown between uses
+    default: op
