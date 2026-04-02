@@ -3,6 +3,7 @@
 [![Platform](https://img.shields.io/badge/platform-Paper%20%7C%20Spigot%20%7C%20Folia-green.svg)](https://papermc.io/)
 ![Java](https://img.shields.io/badge/java-21%2B-orange.svg)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21%2B-red.svg)
+[![Support me](https://img.shields.io/badge/Support%20me-Ko--fi-ff5f5f?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/erotoro)
 
 Lightweight ore vein mining plugin for Folia, Paper, and Spigot.
 
@@ -88,4 +89,5 @@ Main options in `config.yml`:
 ## Support
 
 - Discord: [Join Discord](https://discord.gg/FMhuu3meH2)
+- Ko-fi: [Support me](https://ko-fi.com/erotoro)
 - Bugs and suggestions: [GitHub Issues](https://github.com/Erotoro/OreWeaver/issues)
